@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Rate us</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gratingFiles.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" href="images/favicon-32x32.png">
+  <link rel="icon" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+
+<body>
+<div class="page-container">
+  <div class="card" id="rating-card">
+    <div class="roundBackground"><img class="star" src="images/icon-star.svg" alt="star"></div>
+    <h1 class="rating-header">How did we do?</h1>
+    <p class="question">Please let us know how we did with your support request. All feedback is appreciated to help us
+      improve our offering!</p>
+      <div class="number-row-container">
+        <div class="roundBackground rating" id="one"><p>1</p></div>
+        <div class="roundBackground rating" id="two"><p>2</p></div>
+        <div class="roundBackground rating" id="three"><p>3</p></div>
+        <div class="roundBackground rating" id="four"><p>4</p></div>
+        <div class="roundBackground rating" id="five"><p>5</p></div>
+      </div>
+      <button class="submit" name="button" id="submit-button"> Submit </button>
+  </div>
+
+  <div class="card thank-you-card" hidden id="thank-you">
+    <img class="thank-you-image" src="images/illustration-thank-you.svg" alt="thank you">
+    <div class="answer"><p></p></div>
+    <h1>Thank you!</h1>
+    <p class="thank-you-massage">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+  </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="index.js"></script>
+</body>
+
+</html>
